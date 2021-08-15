@@ -57,6 +57,7 @@
           <section>
             <h3>Perk</h3>
             <input
+              class="perklist"
               type="text"
               list="perks"
               name="perk1"
@@ -122,6 +123,7 @@
           <section>
             <h3>Perk</h3>
             <input
+              class="perklist"
               type="text"
               list="perks"
               name="perk2"
@@ -187,6 +189,7 @@
           <section>
             <h3>Perk</h3>
             <input
+              class="perklist"
               type="text"
               list="perks"
               name="perk3"
@@ -252,6 +255,7 @@
           <section>
             <h3>Perk</h3>
             <input
+              class="perklist"
               type="text"
               list="perks"
               name="perk4"
@@ -498,6 +502,8 @@ export default {
 
 
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 .overlay {
   ul {
     display: flex;
@@ -511,6 +517,7 @@ export default {
       display: flex;
       margin-bottom: 20px;
       .container {
+        width: 150px;
         margin-right: 50px;
         .perkicon-box {
           position: relative;
@@ -526,15 +533,32 @@ export default {
             width: 100px;
           }
         }
+        .ja {
+          font-family: "Noto Sans JP";
+          font-weight: 500;
+        }
         .en {
           font-size: 10 / 16 * 1rem;
+          font-family: "Roboto Condensed";
+          font-weight: 700;
         }
       }
       .selector {
-        margin-bottom: 20px;
+        width: 150px;
+        section {
+          margin-bottom: 20px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
         h3 {
           margin-top: 0;
           margin-bottom: 10px;
+        }
+        .perklist {
+          width: 85%;
+          margin-left: auto;
+          margin-right: auto;
         }
       }
     }

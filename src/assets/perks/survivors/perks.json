@@ -6,6 +6,90 @@
     },
     {
         "status": true,
+        "id": "IconPerks_slipperyMeat",
+        "ja": "ツルツルとした肉体",
+        "en": "Slippery Meat"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_thisIsNotHappening",
+        "ja": "痛みも気から",
+        "en": "This is not happening"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_darkSense",
+        "ja": "闇の感覚",
+        "en": "Dark Sense"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_dejaVu",
+        "ja": "デジャヴ",
+        "en": "Deja Vu"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hope",
+        "ja": "希望",
+        "en": "Hope"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_kindred",
+        "ja": "血族",
+        "en": "Kindred"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_lightweight",
+        "ja": "身軽",
+        "en": "Lightweight"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_noOneLeftBehind",
+        "ja": "誰も見捨てはしない",
+        "en": "No one left behind"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_plunderersInstinct",
+        "ja": "コソ泥の本能",
+        "en": "Plunderers instinct"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_premonition",
+        "ja": "予感",
+        "en": "Premonition"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_resilience",
+        "ja": "逆境魂",
+        "en": "Resilience"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_smallGame",
+        "ja": "小さな獲物",
+        "en": "smallGame"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_spineChill",
+        "ja": "凍り付く背筋",
+        "en": "Spine Chill"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_wellMakeIt",
+        "ja": "きっとやり遂げる",
+        "en": "Well make it"
+    },
+    {
+        "status": true,
         "id": "IconPerks_aceInTheHole",
         "ja": "最後の切り札",
         "en": "Ace in the hole"
@@ -33,17 +117,5 @@
         "id": "IconPerks_borrowedTime",
         "ja": "与えられた猶予",
         "en": "Borrowed Time"
-    },
-    {
-        "status": true,
-        "id": "IconPerks_kindred",
-        "ja": "血族",
-        "en": "Kindred"
-    },
-    {
-        "status": true,
-        "id": "IconPerks_spineChill",
-        "ja": "凍り付く背筋",
-        "en": "Spine Chill"
     }
 ]
