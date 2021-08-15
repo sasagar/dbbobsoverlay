@@ -271,58 +271,11 @@
 
 <script>
 import { computed, onMounted, ref, watch } from "vue";
+import perks_json from "../assets/perks/survivors/perks.json";
 
 export default {
   setup() {
-    const perks = [
-      {
-        status: false,
-        ja: "",
-        en: ""
-      },
-      {
-        status: true,
-        id: "IconPerks_aceInTheHole",
-        ja: "最後の切り札",
-        en: "Ace in the hole"
-      },
-      {
-        status: true,
-        id: "IconPerks_adrenaline",
-        ja: "アドレナリン",
-        en: "Adrenaline"
-      },
-      {
-        status: true,
-        id: "IconPerks_aftercare",
-        ja: "アフターケア",
-        en: "Aftercare"
-      },
-      {
-        status: true,
-        id: "IconPerks_bond",
-        ja: "絆",
-        en: "Bond"
-      },
-      {
-        status: true,
-        id: "IconPerks_borrowedTime",
-        ja: "与えられた猶予",
-        en: "Borrowed Time"
-      },
-      {
-        status: true,
-        id: "IconPerks_kindred",
-        ja: "血族",
-        en: "Kindred"
-      },
-      {
-        status: true,
-        id: "IconPerks_spineChill",
-        ja: "凍り付く背筋",
-        en: "Spine Chill"
-      }
-    ];
+    const perks = perks_json;
 
     const lv1bgimg = computed(() => {
       const lv = perk1selectlv.value * 1;
