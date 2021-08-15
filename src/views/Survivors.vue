@@ -1,0 +1,505 @@
+<template>
+  <div class="overlay">
+    <ul>
+      <li>
+        <div class="container">
+          <div class="perkicon-box">
+            <img
+              :alt="lv1bgimg"
+              :src="require(`@/assets/perks/perkbase/${lv1bgimg}.png`)"
+            />
+            <img
+              :alt="perk1img.en"
+              :src="require(`@/assets/perks/survivors/${perk1img.id}.png`)"
+            />
+          </div>
+          <div class="perkname ja">{{ this.perk1img.ja }}</div>
+          <div class="perkname en">{{ this.perk1img.en }}</div>
+        </div>
+        <div class="selector">
+          <section>
+            <h3>Level</h3>
+            <input
+              type="radio"
+              name="level1"
+              id="level1"
+              value="1"
+              v-model="perk1selectlv"
+            />
+            <label for="level1">1</label>
+            <input
+              type="radio"
+              name="level1"
+              id="level1"
+              value="2"
+              v-model="perk1selectlv"
+            />
+            <label for="level1">2</label>
+            <input
+              type="radio"
+              name="level1"
+              id="level1"
+              value="3"
+              v-model="perk1selectlv"
+            />
+            <label for="level1">3</label>
+          </section>
+          <section>
+            <h3>Perk</h3>
+            <input
+              type="text"
+              list="perks"
+              name="perk1"
+              v-model="perk1selectpk"
+            />
+            <datalist id="perks">
+              <template v-for="perk in perks" :key="perk.id">
+                <option :value="perk.ja" :label="perk.en"></option>
+              </template>
+            </datalist>
+          </section>
+        </div>
+      </li>
+
+      <li>
+        <div class="container">
+          <div class="perkicon-box">
+            <img
+              :alt="lv2bgimg"
+              :src="require(`@/assets/perks/perkbase/${lv2bgimg}.png`)"
+            />
+            <img
+              :alt="perk2img.en"
+              :src="require(`@/assets/perks/survivors/${perk2img.id}.png`)"
+            />
+          </div>
+          <div class="perkname ja">{{ this.perk2img.ja }}</div>
+          <div class="perkname en">{{ this.perk2img.en }}</div>
+        </div>
+        <div class="selector">
+          <section>
+            <h3>Level</h3>
+            <input
+              type="radio"
+              name="level2"
+              id="level2"
+              value="1"
+              v-model="perk2selectlv"
+            />
+            <label for="level2">1</label>
+            <input
+              type="radio"
+              name="level2"
+              id="level2"
+              value="2"
+              v-model="perk2selectlv"
+            />
+            <label for="level2">2</label>
+            <input
+              type="radio"
+              name="level2"
+              id="level2"
+              value="3"
+              v-model="perk2selectlv"
+            />
+            <label for="level2">3</label>
+          </section>
+          <section>
+            <h3>Perk</h3>
+            <input
+              type="text"
+              list="perks"
+              name="perk2"
+              v-model="perk2selectpk"
+            />
+            <datalist id="perks">
+              <template v-for="perk in perks" :key="perk.id">
+                <option :value="perk.ja" :label="perk.en"></option>
+              </template>
+            </datalist>
+          </section>
+        </div>
+      </li>
+
+      <li>
+        <div class="container">
+          <div class="perkicon-box">
+            <img
+              :alt="lv3bgimg"
+              :src="require(`@/assets/perks/perkbase/${lv3bgimg}.png`)"
+            />
+            <img
+              :alt="perk3img.en"
+              :src="require(`@/assets/perks/survivors/${perk3img.id}.png`)"
+            />
+          </div>
+          <div class="perkname ja">{{ this.perk3img.ja }}</div>
+          <div class="perkname en">{{ this.perk3img.en }}</div>
+        </div>
+        <div class="selector">
+          <section>
+            <h3>Level</h3>
+            <input
+              type="radio"
+              name="level3"
+              id="level3"
+              value="1"
+              v-model="perk3selectlv"
+            />
+            <label for="level3">1</label>
+            <input
+              type="radio"
+              name="level3"
+              id="level3"
+              value="2"
+              v-model="perk3selectlv"
+            />
+            <label for="level3">2</label>
+            <input
+              type="radio"
+              name="level3"
+              id="level3"
+              value="3"
+              v-model="perk3selectlv"
+            />
+            <label for="level3">3</label>
+          </section>
+          <section>
+            <h3>Perk</h3>
+            <input
+              type="text"
+              list="perks"
+              name="perk3"
+              v-model="perk3selectpk"
+            />
+            <datalist id="perks">
+              <template v-for="perk in perks" :key="perk.id">
+                <option :value="perk.ja" :label="perk.en"></option>
+              </template>
+            </datalist>
+          </section>
+        </div>
+      </li>
+
+      <li>
+        <div class="container">
+          <div class="perkicon-box">
+            <img
+              :alt="lv4bgimg"
+              :src="require(`@/assets/perks/perkbase/${lv4bgimg}.png`)"
+            />
+            <img
+              :alt="perk4img.en"
+              :src="require(`@/assets/perks/survivors/${perk4img.id}.png`)"
+            />
+          </div>
+          <div class="perkname ja">{{ this.perk4img.ja }}</div>
+          <div class="perkname en">{{ this.perk4img.en }}</div>
+        </div>
+        <div class="selector">
+          <section>
+            <h3>Level</h3>
+            <input
+              type="radio"
+              name="level4"
+              id="level4"
+              value="1"
+              v-model="perk1selectlv"
+            />
+            <label for="level4">1</label>
+            <input
+              type="radio"
+              name="level4"
+              id="level4"
+              value="2"
+              v-model="perk4selectlv"
+            />
+            <label for="level4">2</label>
+            <input
+              type="radio"
+              name="level4"
+              id="level4"
+              value="3"
+              v-model="perk4selectlv"
+            />
+            <label for="level4">3</label>
+          </section>
+          <section>
+            <h3>Perk</h3>
+            <input
+              type="text"
+              list="perks"
+              name="perk4"
+              v-model="perk4selectpk"
+            />
+            <datalist id="perks">
+              <template v-for="perk in perks" :key="perk.id">
+                <option :value="perk.ja" :label="perk.en"></option>
+              </template>
+            </datalist>
+          </section>
+        </div>
+      </li>
+    </ul>
+  </div>
+</template>
+
+<script>
+import { computed, onMounted, ref, watch } from "vue";
+
+export default {
+  setup() {
+    const perks = [
+      {
+        id: "IconPerks_aceInTheHole",
+        ja: "最後の切り札",
+        en: "Ace in the hole"
+      },
+      {
+        id: "IconPerks_adrenaline",
+        ja: "アドレナリン",
+        en: "Adrenaline"
+      },
+      {
+        id: "IconPerks_aftercare",
+        ja: "アフターケア",
+        en: "Aftercare"
+      },
+      {
+        id: "IconPerks_bond",
+        ja: "絆",
+        en: "Bond"
+      },
+      {
+        id: "IconPerks_borrowedTime",
+        ja: "与えられた猶予",
+        en: "Borrowed Time"
+      },
+      {
+        id: "IconPerks_kindred",
+        ja: "血族",
+        en: "Kindred"
+      },
+      {
+        id: "IconPerks_spineChill",
+        ja: "凍り付く背筋",
+        en: "Spine Chill"
+      }
+    ];
+
+    const lv1bgimg = computed(() => {
+      const lv = perk1selectlv.value * 1;
+      if (lv == 3) {
+        return "very_rare";
+      } else if (lv == 2) {
+        return "rare";
+      } else {
+        return "uncommon";
+      }
+    });
+
+    const perk1img = computed(() => {
+      if (perk1selectpk.value != "") {
+        const result = perks.find(perk => perk.ja === perk1selectpk.value);
+        return result;
+      } else {
+        return perks[0];
+      }
+    });
+
+    const lv2bgimg = computed(() => {
+      const lv = perk2selectlv.value * 1;
+      if (lv == 3) {
+        return "very_rare";
+      } else if (lv == 2) {
+        return "rare";
+      } else {
+        return "uncommon";
+      }
+    });
+
+    const perk2img = computed(() => {
+      if (perk2selectpk.value != "") {
+        const result = perks.find(perk => perk.ja === perk2selectpk.value);
+        return result;
+      } else {
+        return perks[0];
+      }
+    });
+
+    const lv3bgimg = computed(() => {
+      const lv = perk3selectlv.value * 1;
+      if (lv == 3) {
+        return "very_rare";
+      } else if (lv == 2) {
+        return "rare";
+      } else {
+        return "uncommon";
+      }
+    });
+
+    const perk3img = computed(() => {
+      if (perk3selectpk.value != "") {
+        const result = perks.find(perk => perk.ja === perk3selectpk.value);
+        return result;
+      } else {
+        return perks[0];
+      }
+    });
+
+    const lv4bgimg = computed(() => {
+      const lv = perk4selectlv.value * 1;
+      if (lv == 3) {
+        return "very_rare";
+      } else if (lv == 2) {
+        return "rare";
+      } else {
+        return "uncommon";
+      }
+    });
+
+    const perk4img = computed(() => {
+      if (perk4selectpk.value != "") {
+        const result = perks.find(perk => perk.ja === perk4selectpk.value);
+        return result;
+      } else {
+        return perks[0];
+      }
+    });
+
+    const perk1selectlv = ref("1");
+    const perk2selectlv = ref("1");
+    const perk3selectlv = ref("1");
+    const perk4selectlv = ref("1");
+
+    const perk1selectpk = ref("");
+    const perk2selectpk = ref("");
+    const perk3selectpk = ref("");
+    const perk4selectpk = ref("");
+
+    watch(perk1selectlv, newVal => {
+      localStorage.perk1selectlv = newVal;
+    });
+
+    watch(perk2selectlv, newVal => {
+      localStorage.perk2selectlv = newVal;
+    });
+
+    watch(perk3selectlv, newVal => {
+      localStorage.perk3selectlv = newVal;
+    });
+
+    watch(perk4selectlv, newVal => {
+      localStorage.perk4selectlv = newVal;
+    });
+
+    watch(perk1selectpk, newVal => {
+      localStorage.perk1selectpk = newVal;
+    });
+
+    watch(perk2selectpk, newVal => {
+      localStorage.perk2selectpk = newVal;
+    });
+
+    watch(perk3selectpk, newVal => {
+      localStorage.perk3selectpk = newVal;
+    });
+
+    watch(perk4selectpk, newVal => {
+      localStorage.perk4selectpk = newVal;
+    });
+
+    onMounted(() => {
+      if (localStorage.perk1selectlv) {
+        perk1selectlv.value = localStorage.perk1selectlv;
+      }
+
+      if (localStorage.perk2selectlv) {
+        perk2selectlv.value = localStorage.perk2selectlv;
+      }
+
+      if (localStorage.perk3selectlv) {
+        perk3selectlv.value = localStorage.perk3selectlv;
+      }
+
+      if (localStorage.perk4selectlv) {
+        perk4selectlv.value = localStorage.perk4selectlv;
+      }
+
+      if (localStorage.perk1selectpk) {
+        perk1selectpk.value = localStorage.perk1selectpk;
+      }
+
+      if (localStorage.perk2selectpk) {
+        perk2selectpk.value = localStorage.perk2selectpk;
+      }
+
+      if (localStorage.perk3selectpk) {
+        perk3selectpk.value = localStorage.perk3selectpk;
+      }
+
+      if (localStorage.perk4selectpk) {
+        perk4selectpk.value = localStorage.perk4selectpk;
+      }
+    });
+
+    return {
+      perks,
+      lv1bgimg,
+      perk1img,
+      lv2bgimg,
+      perk2img,
+      lv3bgimg,
+      perk3img,
+      lv4bgimg,
+      perk4img,
+      perk1selectlv,
+      perk2selectlv,
+      perk3selectlv,
+      perk4selectlv,
+      perk1selectpk,
+      perk2selectpk,
+      perk3selectpk,
+      perk4selectpk
+    };
+  }
+};
+</script>
+
+
+<style lang="scss">
+.overlay {
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: flex;
+      .container {
+        margin-right: 50px;
+        .perkicon-box {
+          position: relative;
+          text-align: center;
+          width: 100px;
+          height: 100px;
+          margin: 0 auto 10px;
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100px;
+          }
+        }
+        .en {
+          font-size: 10 / 16 * 1rem;
+        }
+      }
+    }
+  }
+}
+</style>
