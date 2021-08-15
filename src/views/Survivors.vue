@@ -7,10 +7,12 @@
             <img
               :alt="lv1bgimg"
               :src="require(`@/assets/perks/perkbase/${lv1bgimg}.png`)"
+              v-if="perk1img.status"
             />
             <img
               :alt="perk1img.en"
               :src="require(`@/assets/perks/survivors/${perk1img.id}.png`)"
+              v-if="perk1img.status"
             />
           </div>
           <div class="perkname ja">{{ this.perk1img.ja }}</div>
@@ -19,6 +21,14 @@
         <div class="selector">
           <section>
             <h3>Level</h3>
+            <input
+              type="radio"
+              name="level1"
+              id="level1"
+              value="0"
+              v-model="perk1selectlv"
+            />
+            <label for="level1">None</label>
             <input
               type="radio"
               name="level1"
@@ -52,11 +62,6 @@
               name="perk1"
               v-model="perk1selectpk"
             />
-            <datalist id="perks">
-              <template v-for="perk in perks" :key="perk.id">
-                <option :value="perk.ja" :label="perk.en"></option>
-              </template>
-            </datalist>
           </section>
         </div>
       </li>
@@ -67,10 +72,12 @@
             <img
               :alt="lv2bgimg"
               :src="require(`@/assets/perks/perkbase/${lv2bgimg}.png`)"
+              v-if="perk2img.status"
             />
             <img
               :alt="perk2img.en"
               :src="require(`@/assets/perks/survivors/${perk2img.id}.png`)"
+              v-if="perk2img.status"
             />
           </div>
           <div class="perkname ja">{{ this.perk2img.ja }}</div>
@@ -79,6 +86,14 @@
         <div class="selector">
           <section>
             <h3>Level</h3>
+            <input
+              type="radio"
+              name="level2"
+              id="level2"
+              value="0"
+              v-model="perk2selectlv"
+            />
+            <label for="level2">None</label>
             <input
               type="radio"
               name="level2"
@@ -112,11 +127,6 @@
               name="perk2"
               v-model="perk2selectpk"
             />
-            <datalist id="perks">
-              <template v-for="perk in perks" :key="perk.id">
-                <option :value="perk.ja" :label="perk.en"></option>
-              </template>
-            </datalist>
           </section>
         </div>
       </li>
@@ -127,10 +137,12 @@
             <img
               :alt="lv3bgimg"
               :src="require(`@/assets/perks/perkbase/${lv3bgimg}.png`)"
+              v-if="perk3img.status"
             />
             <img
               :alt="perk3img.en"
               :src="require(`@/assets/perks/survivors/${perk3img.id}.png`)"
+              v-if="perk3img.status"
             />
           </div>
           <div class="perkname ja">{{ this.perk3img.ja }}</div>
@@ -139,6 +151,14 @@
         <div class="selector">
           <section>
             <h3>Level</h3>
+            <input
+              type="radio"
+              name="level3"
+              id="level3"
+              value="0"
+              v-model="perk3selectlv"
+            />
+            <label for="level3">None</label>
             <input
               type="radio"
               name="level3"
@@ -172,11 +192,6 @@
               name="perk3"
               v-model="perk3selectpk"
             />
-            <datalist id="perks">
-              <template v-for="perk in perks" :key="perk.id">
-                <option :value="perk.ja" :label="perk.en"></option>
-              </template>
-            </datalist>
           </section>
         </div>
       </li>
@@ -187,10 +202,12 @@
             <img
               :alt="lv4bgimg"
               :src="require(`@/assets/perks/perkbase/${lv4bgimg}.png`)"
+              v-if="perk4img.status"
             />
             <img
               :alt="perk4img.en"
               :src="require(`@/assets/perks/survivors/${perk4img.id}.png`)"
+              v-if="perk4img.status"
             />
           </div>
           <div class="perkname ja">{{ this.perk4img.ja }}</div>
@@ -203,8 +220,16 @@
               type="radio"
               name="level4"
               id="level4"
+              value="0"
+              v-model="perk4selectlv"
+            />
+            <label for="level4">None</label>
+            <input
+              type="radio"
+              name="level4"
+              id="level4"
               value="1"
-              v-model="perk1selectlv"
+              v-model="perk4selectlv"
             />
             <label for="level4">1</label>
             <input
@@ -251,36 +276,48 @@ export default {
   setup() {
     const perks = [
       {
+        status: false,
+        ja: "",
+        en: ""
+      },
+      {
+        status: true,
         id: "IconPerks_aceInTheHole",
         ja: "最後の切り札",
         en: "Ace in the hole"
       },
       {
+        status: true,
         id: "IconPerks_adrenaline",
         ja: "アドレナリン",
         en: "Adrenaline"
       },
       {
+        status: true,
         id: "IconPerks_aftercare",
         ja: "アフターケア",
         en: "Aftercare"
       },
       {
+        status: true,
         id: "IconPerks_bond",
         ja: "絆",
         en: "Bond"
       },
       {
+        status: true,
         id: "IconPerks_borrowedTime",
         ja: "与えられた猶予",
         en: "Borrowed Time"
       },
       {
+        status: true,
         id: "IconPerks_kindred",
         ja: "血族",
         en: "Kindred"
       },
       {
+        status: true,
         id: "IconPerks_spineChill",
         ja: "凍り付く背筋",
         en: "Spine Chill"
@@ -301,6 +338,12 @@ export default {
     const perk1img = computed(() => {
       if (perk1selectpk.value != "") {
         const result = perks.find(perk => perk.ja === perk1selectpk.value);
+        if (
+          typeof result === "undefined" ||
+          typeof result.status === "undefined"
+        ) {
+          return perks[0];
+        }
         return result;
       } else {
         return perks[0];
@@ -321,6 +364,12 @@ export default {
     const perk2img = computed(() => {
       if (perk2selectpk.value != "") {
         const result = perks.find(perk => perk.ja === perk2selectpk.value);
+        if (
+          typeof result === "undefined" ||
+          typeof result.status === "undefined"
+        ) {
+          return perks[0];
+        }
         return result;
       } else {
         return perks[0];
@@ -341,6 +390,12 @@ export default {
     const perk3img = computed(() => {
       if (perk3selectpk.value != "") {
         const result = perks.find(perk => perk.ja === perk3selectpk.value);
+        if (
+          typeof result === "undefined" ||
+          typeof result.status === "undefined"
+        ) {
+          return perks[0];
+        }
         return result;
       } else {
         return perks[0];
@@ -361,16 +416,22 @@ export default {
     const perk4img = computed(() => {
       if (perk4selectpk.value != "") {
         const result = perks.find(perk => perk.ja === perk4selectpk.value);
+        if (
+          typeof result === "undefined" ||
+          typeof result.status === "undefined"
+        ) {
+          return perks[0];
+        }
         return result;
       } else {
         return perks[0];
       }
     });
 
-    const perk1selectlv = ref("1");
-    const perk2selectlv = ref("1");
-    const perk3selectlv = ref("1");
-    const perk4selectlv = ref("1");
+    const perk1selectlv = ref("0");
+    const perk2selectlv = ref("0");
+    const perk3selectlv = ref("0");
+    const perk4selectlv = ref("0");
 
     const perk1selectpk = ref("");
     const perk2selectpk = ref("");
@@ -379,18 +440,34 @@ export default {
 
     watch(perk1selectlv, newVal => {
       localStorage.perk1selectlv = newVal;
+      if (newVal == 0) {
+        perk1selectpk.value = "";
+        localStorage.perk1selectpk = "";
+      }
     });
 
     watch(perk2selectlv, newVal => {
       localStorage.perk2selectlv = newVal;
+      if (newVal == 0) {
+        perk2selectpk.value = "";
+        localStorage.perk2selectpk = "";
+      }
     });
 
     watch(perk3selectlv, newVal => {
       localStorage.perk3selectlv = newVal;
+      if (newVal == 0) {
+        perk3selectpk.value = "";
+        localStorage.perk3selectpk = "";
+      }
     });
 
     watch(perk4selectlv, newVal => {
       localStorage.perk4selectlv = newVal;
+      if (newVal == 0) {
+        perk4selectpk.value = "";
+        localStorage.perk4selectpk = "";
+      }
     });
 
     watch(perk1selectpk, newVal => {
@@ -472,13 +549,14 @@ export default {
   ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     list-style: none;
     margin: 0;
     padding: 0;
 
     li {
       display: flex;
+      margin-bottom: 20px;
       .container {
         margin-right: 50px;
         .perkicon-box {
@@ -497,6 +575,13 @@ export default {
         }
         .en {
           font-size: 10 / 16 * 1rem;
+        }
+      }
+      .selector {
+        margin-bottom: 20px;
+        h3 {
+          margin-top: 0;
+          margin-bottom: 10px;
         }
       }
     }
