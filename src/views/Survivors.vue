@@ -547,7 +547,7 @@ export default {
           font-weight: 500;
         }
         .en {
-          font-size: math.div(10, 16) * 1rem;
+          font-size: math.div(12, 16) * 1rem;
           font-family: "Roboto Condensed";
           font-weight: 700;
         }
