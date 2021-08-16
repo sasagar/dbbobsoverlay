@@ -7,7 +7,10 @@
         Overlay for Survivors is here / サバイバー用オーバーレイはこちら
       </router-link>
     </p>
-    <p>Overlay for Killers is here / キラー用オーバーレイはこちら</p>
+    <p>
+      【Ready for release / 準備中】Overlay for Killers is here /
+      キラー用オーバーレイはこちら
+    </p>
     <section>
       <h2>[JP] オーバーレイについて</h2>
       <p>
