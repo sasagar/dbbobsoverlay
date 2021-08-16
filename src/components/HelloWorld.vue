@@ -2,15 +2,23 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>This is just show the perks you use for audience.</p>
-    <p>
-      <router-link to="./survivors">
-        Overlay for Survivors is here / サバイバー用オーバーレイはこちら
-      </router-link>
-    </p>
-    <p>
-      【Ready for release / 準備中】Overlay for Killers is here /
-      キラー用オーバーレイはこちら
-    </p>
+    <section>
+      <h2>Overlay & Contoller URL</h2>
+      <p>
+        <router-link to="./survivors">
+          Overlay for Survivors is here / サバイバー用オーバーレイはこちら
+        </router-link>
+      </p>
+      <p>
+        <router-link to="./ctrl">
+          Overlay Controller is here / オーバーレイの設定画面はこちら
+        </router-link>
+      </p>
+      <p>
+        【Ready for release / 準備中】Overlay for Killers is here /
+        キラー用オーバーレイはこちら
+      </p>
+    </section>
     <section>
       <h2>[JP] オーバーレイについて</h2>
       <p>
@@ -25,6 +33,14 @@
         overlay. <br />
         Functions may be added at any time. If the display changes, please check
         this page as necessary to find out how to fix the problem.
+      </p>
+    </section>
+    <section>
+      <h2>How to use / 使い方</h2>
+      <p>
+        <router-link to="./howto">
+          Guide for this overlay. / 使い方はこちら
+        </router-link>
       </p>
     </section>
   </div>

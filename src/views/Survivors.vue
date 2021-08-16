@@ -18,56 +18,6 @@
           <div class="perkname ja">{{ this.perk1img.ja }}</div>
           <div class="perkname en">{{ this.perk1img.en }}</div>
         </div>
-        <div class="selector">
-          <section>
-            <h3>Level</h3>
-            <input
-              type="radio"
-              name="level1"
-              id="level1"
-              value="0"
-              v-model="perk1selectlv"
-            />
-            <label for="level1">None</label>
-            <input
-              type="radio"
-              name="level1"
-              id="level1"
-              value="1"
-              v-model="perk1selectlv"
-            />
-            <label for="level1">1</label>
-            <input
-              type="radio"
-              name="level1"
-              id="level1"
-              value="2"
-              v-model="perk1selectlv"
-            />
-            <label for="level1">2</label>
-            <input
-              type="radio"
-              name="level1"
-              id="level1"
-              value="3"
-              v-model="perk1selectlv"
-            />
-            <label for="level1">3</label>
-          </section>
-          <section>
-            <h3>Perk</h3>
-            <select
-              class="perklist"
-              type="text"
-              name="perk1"
-              v-model="perk1selectpk"
-            >
-              <template v-for="perk in perks" :key="perk.id">
-                <option :value="perk.ja">{{ perk.ja }} / {{ perk.en }}</option>
-              </template>
-            </select>
-          </section>
-        </div>
       </li>
 
       <li>
@@ -86,56 +36,6 @@
           </div>
           <div class="perkname ja">{{ this.perk2img.ja }}</div>
           <div class="perkname en">{{ this.perk2img.en }}</div>
-        </div>
-        <div class="selector">
-          <section>
-            <h3>Level</h3>
-            <input
-              type="radio"
-              name="level2"
-              id="level2"
-              value="0"
-              v-model="perk2selectlv"
-            />
-            <label for="level2">None</label>
-            <input
-              type="radio"
-              name="level2"
-              id="level2"
-              value="1"
-              v-model="perk2selectlv"
-            />
-            <label for="level2">1</label>
-            <input
-              type="radio"
-              name="level2"
-              id="level2"
-              value="2"
-              v-model="perk2selectlv"
-            />
-            <label for="level2">2</label>
-            <input
-              type="radio"
-              name="level2"
-              id="level2"
-              value="3"
-              v-model="perk2selectlv"
-            />
-            <label for="level2">3</label>
-          </section>
-          <section>
-            <h3>Perk</h3>
-            <select
-              class="perklist"
-              type="text"
-              name="perk2"
-              v-model="perk2selectpk"
-            >
-              <template v-for="perk in perks" :key="perk.id">
-                <option :value="perk.ja">{{ perk.ja }} / {{ perk.en }}</option>
-              </template>
-            </select>
-          </section>
         </div>
       </li>
 
@@ -156,56 +56,6 @@
           <div class="perkname ja">{{ this.perk3img.ja }}</div>
           <div class="perkname en">{{ this.perk3img.en }}</div>
         </div>
-        <div class="selector">
-          <section>
-            <h3>Level</h3>
-            <input
-              type="radio"
-              name="level3"
-              id="level3"
-              value="0"
-              v-model="perk3selectlv"
-            />
-            <label for="level3">None</label>
-            <input
-              type="radio"
-              name="level3"
-              id="level3"
-              value="1"
-              v-model="perk3selectlv"
-            />
-            <label for="level3">1</label>
-            <input
-              type="radio"
-              name="level3"
-              id="level3"
-              value="2"
-              v-model="perk3selectlv"
-            />
-            <label for="level3">2</label>
-            <input
-              type="radio"
-              name="level3"
-              id="level3"
-              value="3"
-              v-model="perk3selectlv"
-            />
-            <label for="level3">3</label>
-          </section>
-          <section>
-            <h3>Perk</h3>
-            <select
-              class="perklist"
-              type="text"
-              name="perk3"
-              v-model="perk3selectpk"
-            >
-              <template v-for="perk in perks" :key="perk.id">
-                <option :value="perk.ja">{{ perk.ja }} / {{ perk.en }}</option>
-              </template>
-            </select>
-          </section>
-        </div>
       </li>
 
       <li>
@@ -225,63 +75,13 @@
           <div class="perkname ja">{{ this.perk4img.ja }}</div>
           <div class="perkname en">{{ this.perk4img.en }}</div>
         </div>
-        <div class="selector">
-          <section>
-            <h3>Level</h3>
-            <input
-              type="radio"
-              name="level4"
-              id="level4"
-              value="0"
-              v-model="perk4selectlv"
-            />
-            <label for="level4">None</label>
-            <input
-              type="radio"
-              name="level4"
-              id="level4"
-              value="1"
-              v-model="perk4selectlv"
-            />
-            <label for="level4">1</label>
-            <input
-              type="radio"
-              name="level4"
-              id="level4"
-              value="2"
-              v-model="perk4selectlv"
-            />
-            <label for="level4">2</label>
-            <input
-              type="radio"
-              name="level4"
-              id="level4"
-              value="3"
-              v-model="perk4selectlv"
-            />
-            <label for="level4">3</label>
-          </section>
-          <section>
-            <h3>Perk</h3>
-            <select
-              class="perklist"
-              type="text"
-              name="perk4"
-              v-model="perk4selectpk"
-            >
-              <template v-for="perk in perks" :key="perk.id">
-                <option :value="perk.ja">{{ perk.ja }} / {{ perk.en }}</option>
-              </template>
-            </select>
-          </section>
-        </div>
       </li>
     </ul>
   </div>
 </template>
 
 <script>
-import { computed, onMounted, ref, watch } from "vue";
+import { computed, onMounted, onUnmounted, ref } from "vue";
 import perks_json from "../assets/perks/survivors/perks.json";
 
 export default {
@@ -402,55 +202,10 @@ export default {
     const perk3selectpk = ref("");
     const perk4selectpk = ref("");
 
-    watch(perk1selectlv, newVal => {
-      localStorage.perk1selectlv = newVal;
-      if (newVal == 0) {
-        perk1selectpk.value = "";
-        localStorage.perk1selectpk = "";
-      }
-    });
-
-    watch(perk2selectlv, newVal => {
-      localStorage.perk2selectlv = newVal;
-      if (newVal == 0) {
-        perk2selectpk.value = "";
-        localStorage.perk2selectpk = "";
-      }
-    });
-
-    watch(perk3selectlv, newVal => {
-      localStorage.perk3selectlv = newVal;
-      if (newVal == 0) {
-        perk3selectpk.value = "";
-        localStorage.perk3selectpk = "";
-      }
-    });
-
-    watch(perk4selectlv, newVal => {
-      localStorage.perk4selectlv = newVal;
-      if (newVal == 0) {
-        perk4selectpk.value = "";
-        localStorage.perk4selectpk = "";
-      }
-    });
-
-    watch(perk1selectpk, newVal => {
-      localStorage.perk1selectpk = newVal;
-    });
-
-    watch(perk2selectpk, newVal => {
-      localStorage.perk2selectpk = newVal;
-    });
-
-    watch(perk3selectpk, newVal => {
-      localStorage.perk3selectpk = newVal;
-    });
-
-    watch(perk4selectpk, newVal => {
-      localStorage.perk4selectpk = newVal;
-    });
-
+    let ls_event_handle;
     onMounted(() => {
+      ls_event_handle = window.addEventListener("storage", eventMethod);
+
       if (localStorage.perk1selectlv) {
         perk1selectlv.value = localStorage.perk1selectlv;
       }
@@ -482,6 +237,64 @@ export default {
       if (localStorage.perk4selectpk) {
         perk4selectpk.value = localStorage.perk4selectpk;
       }
+    });
+
+    const eventMethod = event => {
+      console.log(event.key);
+      let newVal = event.newValue;
+      // let oldVal = event.oldValue;
+      switch (event.key) {
+        case "perk1selectlv":
+          perk1selectlv.value = newVal;
+          if (newVal == 0) {
+            perk1selectpk.value = "";
+          }
+          break;
+
+        case "perk2selectlv":
+          perk2selectlv.value = newVal;
+          if (newVal == 0) {
+            perk2selectpk.value = "";
+          }
+          break;
+
+        case "perk3selectlv":
+          perk3selectlv.value = newVal;
+          if (newVal == 0) {
+            perk3selectpk.value = "";
+          }
+          break;
+
+        case "perk4selectlv":
+          perk4selectlv.value = newVal;
+          if (newVal == 0) {
+            perk4selectpk.value = "";
+          }
+          break;
+
+        case "perk1selectpk":
+          perk1selectpk.value = newVal;
+          break;
+
+        case "perk2selectpk":
+          perk2selectpk.value = newVal;
+          break;
+
+        case "perk3selectpk":
+          perk3selectpk.value = newVal;
+          break;
+
+        case "perk4selectpk":
+          perk4selectpk.value = newVal;
+          break;
+
+        default:
+          break;
+      }
+    };
+
+    onUnmounted(() => {
+      window.removeEventListener(ls_event_handle);
     });
 
     return {
@@ -522,11 +335,9 @@ export default {
     padding: 0;
 
     li {
-      display: flex;
       margin-bottom: 20px;
       .container {
         width: 150px;
-        margin-right: 50px;
         .perkicon-box {
           position: relative;
           text-align: center;
@@ -550,24 +361,6 @@ export default {
           font-size: math.div(12, 16) * 1rem;
           font-family: "Roboto Condensed";
           font-weight: 700;
-        }
-      }
-      .selector {
-        width: 150px;
-        section {
-          margin-bottom: 20px;
-          &:last-child {
-            margin-bottom: 0;
-          }
-        }
-        h3 {
-          margin-top: 0;
-          margin-bottom: 10px;
-        }
-        .perklist {
-          width: 85%;
-          margin-left: auto;
-          margin-right: auto;
         }
       }
     }
