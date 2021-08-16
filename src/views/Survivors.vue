@@ -56,13 +56,16 @@
           </section>
           <section>
             <h3>Perk</h3>
-            <input
+            <select
               class="perklist"
               type="text"
-              list="perks"
               name="perk1"
               v-model="perk1selectpk"
-            />
+            >
+              <template v-for="perk in perks" :key="perk.id">
+                <option :value="perk.ja">{{ perk.ja }} / {{ perk.en }}</option>
+              </template>
+            </select>
           </section>
         </div>
       </li>
@@ -122,13 +125,16 @@
           </section>
           <section>
             <h3>Perk</h3>
-            <input
+            <select
               class="perklist"
               type="text"
-              list="perks"
               name="perk2"
               v-model="perk2selectpk"
-            />
+            >
+              <template v-for="perk in perks" :key="perk.id">
+                <option :value="perk.ja">{{ perk.ja }} / {{ perk.en }}</option>
+              </template>
+            </select>
           </section>
         </div>
       </li>
@@ -188,13 +194,16 @@
           </section>
           <section>
             <h3>Perk</h3>
-            <input
+            <select
               class="perklist"
               type="text"
-              list="perks"
               name="perk3"
               v-model="perk3selectpk"
-            />
+            >
+              <template v-for="perk in perks" :key="perk.id">
+                <option :value="perk.ja">{{ perk.ja }} / {{ perk.en }}</option>
+              </template>
+            </select>
           </section>
         </div>
       </li>
@@ -254,18 +263,16 @@
           </section>
           <section>
             <h3>Perk</h3>
-            <input
+            <select
               class="perklist"
               type="text"
-              list="perks"
               name="perk4"
               v-model="perk4selectpk"
-            />
-            <datalist id="perks">
+            >
               <template v-for="perk in perks" :key="perk.id">
-                <option :value="perk.ja" :label="perk.en"></option>
+                <option :value="perk.ja">{{ perk.ja }} / {{ perk.en }}</option>
               </template>
-            </datalist>
+            </select>
           </section>
         </div>
       </li>
