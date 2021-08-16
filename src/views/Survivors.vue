@@ -502,6 +502,7 @@ export default {
 
 
 <style lang="scss">
+@use "sass:math";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 .overlay {
@@ -525,6 +526,7 @@ export default {
           width: 100px;
           height: 100px;
           margin: 0 auto 10px;
+          overflow: hidden;
           img {
             position: absolute;
             top: 0;
@@ -538,7 +540,7 @@ export default {
           font-weight: 500;
         }
         .en {
-          font-size: 10 / 16 * 1rem;
+          font-size: math.div(10, 16) * 1rem;
           font-family: "Roboto Condensed";
           font-weight: 700;
         }

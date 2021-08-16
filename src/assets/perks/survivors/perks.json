@@ -90,9 +90,33 @@
     },
     {
         "status": true,
-        "id": "IconPerks_aceInTheHole",
-        "ja": "最後の切り札",
-        "en": "Ace in the hole"
+        "id": "IconPerks_bond",
+        "ja": "絆",
+        "en": "Bond"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_proveThyself",
+        "ja": "有能の証明",
+        "en": "Prove thyself"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_leader",
+        "ja": "リーダー",
+        "en": "Leader"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_quickAndQuiet",
+        "ja": "素早く静かに",
+        "en": "Quick & Quiet"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_sprintBurst",
+        "ja": "全力疾走",
+        "en": "Sprint burst"
     },
     {
         "status": true,
@@ -102,20 +126,452 @@
     },
     {
         "status": true,
-        "id": "IconPerks_aftercare",
-        "ja": "アフターケア",
-        "en": "Aftercare"
+        "id": "IconPerks_empathy",
+        "ja": "共感",
+        "en": "Empathy"
     },
     {
         "status": true,
-        "id": "IconPerks_bond",
-        "ja": "絆",
-        "en": "Bond"
+        "id": "IconPerks_botanyKnowledge",
+        "ja": "植物学の知識",
+        "en": "Botany knowledge"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_self-Care",
+        "ja": "セルフケア",
+        "en": "Self care"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_ironWill",
+        "ja": "鋼の意思",
+        "en": "Iron will"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_calmSpirit",
+        "ja": "魂の平穏",
+        "en": "Calm spirit"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_saboteur",
+        "ja": "サボタージュ",
+        "en": "Saboteur"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_balancedLanding",
+        "ja": "スマートな着地",
+        "en": "Balanced landing"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_urbanEvasion",
+        "ja": "都会の逃走術",
+        "en": "Urban evasion"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_streetwise",
+        "ja": "都会の生存術",
+        "en": "Streetwise"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_technician",
+        "ja": "テクニシャン",
+        "en": "Technician"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_lithe",
+        "ja": "しなやか",
+        "en": "Lithe"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_alert",
+        "ja": "警戒",
+        "en": "Alert"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_open-Handed",
+        "ja": "手札公開",
+        "en": "Open-Handed"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_upTheAnte",
+        "ja": "掛け金のレイズ",
+        "en": "Up the ante"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_aceInTheHole",
+        "ja": "最後の切り札",
+        "en": "Ace in the hole"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_leftBehind",
+        "ja": "置き去りにされた者",
+        "en": "Left behind"
     },
     {
         "status": true,
         "id": "IconPerks_borrowedTime",
         "ja": "与えられた猶予",
         "en": "Borrowed Time"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_unbreakable",
+        "ja": "不滅",
+        "en": "Unbreakable"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_wereGonnaLiveForever",
+        "ja": "ずっと一緒だ",
+        "en": "We're gonna live forever"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_deadHard",
+        "ja": "デッド・ハード",
+        "en": "Dead hard"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_noMither",
+        "ja": "弱音はナシだ",
+        "en": "No mither"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_soleSurvivor",
+        "ja": "唯一の生存者",
+        "en": "Sole survivor"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_objectOfObsession",
+        "ja": "執念の対象",
+        "en": "Object of obsession"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_decisiveStrike",
+        "ja": "決死の一撃",
+        "en": "Decisive strike"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_wakeUp",
+        "ja": "目を覚ませ！",
+        "en": "Wake up"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_pharmacy",
+        "ja": "調剤学",
+        "en": "Pharmacy"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_vigil",
+        "ja": "寝ずの番",
+        "en": "Vigil"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_tenacity",
+        "ja": "執念",
+        "en": "Tenacity"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_detectivesHunch",
+        "ja": "刑事の直感",
+        "en": "Detective's hunch"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_stakeOut",
+        "ja": "張り込み",
+        "en": "Stake out"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_danceWithMe",
+        "ja": "ダンス・ウィズ・ミー",
+        "en": "Dance with me"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_windowsOfOpportunitiy",
+        "ja": "ウィンドウズ・オブ・オポチュニティ",
+        "en": "Windows of opportunity"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_boilOver",
+        "ja": "ボイルオーバー",
+        "en": "Boil over"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_diversion",
+        "ja": "陽動",
+        "en": "Diversion"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_deliverance",
+        "ja": "解放",
+        "en": "Deliverance"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_autodidact",
+        "ja": "独学者",
+        "en": "Autodidact"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_breakdown",
+        "ja": "ブレイクダウン",
+        "en": "Breakdown"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_aftercare",
+        "ja": "アフターケア",
+        "en": "Aftercare"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_distortion",
+        "ja": "ディストーション",
+        "en": "Distortion"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_solidartity",
+        "ja": "連帯感",
+        "en": "Solidarity"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_poised",
+        "ja": "平常心",
+        "en": "Poised"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_headOn",
+        "ja": "真っ向勝負",
+        "en": "Head on"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_flip-Flop",
+        "ja": "フリップ・フロップ",
+        "en": "Flip-flop"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_buckleUp",
+        "ja": "ベルトを締めろ！",
+        "en": "Buckle up"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_mettleOfMan",
+        "ja": "英雄の奮起",
+        "en": "mettleOfMan"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_betterTogether",
+        "ja": "一緒にいよう",
+        "en": "Better together"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_fixated",
+        "ja": "執着心",
+        "en": "Fixated"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_innerStrength",
+        "ja": "内なる力",
+        "en": "Inner strength"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_babysitter",
+        "ja": "ベビーシッター",
+        "en": "Babysitter"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_camaraderie",
+        "ja": "仲間意識",
+        "en": "Camaraderie"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_secondWind",
+        "ja": "セカンドウインド",
+        "en": "Second wind"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_luckyBreak",
+        "ja": "怪我の功名",
+        "en": "Lucky break"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_anyMeansNecessary",
+        "ja": "強硬手段",
+        "en": "Any means necessary"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_breakout",
+        "ja": "突破",
+        "en": "Breakout"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_offTheRecord",
+        "ja": "オフレコ",
+        "en": "Off the record"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_redHerring",
+        "ja": "おとり",
+        "en": "Red herring"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_forThePeople",
+        "ja": "人々のために",
+        "en": "For the people"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_soulGuard",
+        "ja": "ソウルガード",
+        "en": "Soul guard"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_bloodPact",
+        "ja": "血の協定",
+        "en": "Blood pact"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_repressedAllience",
+        "ja": "抑圧の同盟",
+        "en": "Repressed allience"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_visionary",
+        "ja": "透視家",
+        "en": "Visionary"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_desperateMeasures",
+        "ja": "苦肉の策",
+        "en": "Desperate measures"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_builtToLast",
+        "ja": "耐久設計",
+        "en": "Built to last"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_appraisal",
+        "ja": "査定",
+        "en": "Appraisal"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_deception",
+        "ja": "欺き",
+        "en": "Deception"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_powerStruggle",
+        "ja": "勢力争い",
+        "en": "Power struggle"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_fastTrack",
+        "ja": "出世街道",
+        "en": "Fast track"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_smashHit",
+        "ja": "大ヒット",
+        "en": "Smash hit"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_self-Preservation",
+        "ja": "自己防衛",
+        "en": "Self-preservation"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_counterforce",
+        "ja": "カウンターフォース",
+        "en": "Counterforce"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_resurgence",
+        "ja": "起死回生",
+        "en": "Resurgence"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_blastMine",
+        "ja": "地雷爆破",
+        "en": "Blast mine"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_biteTheBullet",
+        "ja": "忍苦の時",
+        "en": "Bite the bullet"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_flashbang",
+        "ja": "スタングレネード",
+        "en": "Flaskbang"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_rookieSpirit",
+        "ja": "新人魂",
+        "en": "Rookie spirit"
     }
 ]
