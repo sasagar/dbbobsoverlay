@@ -147,5 +147,41 @@
         "id": "IconPerks_aNursesCalling",
         "ja": "看護師の使命",
         "en": "A nurse's calling"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexTheThirdSeal",
+        "ja": "呪術：第三の封印",
+        "en": "Hex: The third seal"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexRuin",
+        "ja": "呪術：破滅",
+        "en": "Hex: Ruin"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexDevourHope",
+        "ja": "呪術：貪られる希望",
+        "en": "Hex: Devour Hope"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_overwhelmingPresence",
+        "ja": "圧倒的存在感",
+        "en": "Overwhelming presence"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_monitorAndAbuse",
+        "ja": "観察＆虐待",
+        "en": "Monitor and abuse"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_overcharge",
+        "ja": "オーバーチャージ",
+        "en": "Overcharge"
     }
 ]
