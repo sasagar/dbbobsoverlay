@@ -11,7 +11,7 @@
             />
             <img
               :alt="perk1img.en"
-              :src="require(`@/assets/perks/survivors/${perk1img.id}.png`)"
+              :src="require(`@/assets/perks/killers/${perk1img.id}.png`)"
               v-if="perk1img.status"
             />
           </div>
@@ -30,7 +30,7 @@
             />
             <img
               :alt="perk2img.en"
-              :src="require(`@/assets/perks/survivors/${perk2img.id}.png`)"
+              :src="require(`@/assets/perks/killers/${perk2img.id}.png`)"
               v-if="perk2img.status"
             />
           </div>
@@ -49,7 +49,7 @@
             />
             <img
               :alt="perk3img.en"
-              :src="require(`@/assets/perks/survivors/${perk3img.id}.png`)"
+              :src="require(`@/assets/perks/killers/${perk3img.id}.png`)"
               v-if="perk3img.status"
             />
           </div>
@@ -68,7 +68,7 @@
             />
             <img
               :alt="perk4img.en"
-              :src="require(`@/assets/perks/survivors/${perk4img.id}.png`)"
+              :src="require(`@/assets/perks/killers/${perk4img.id}.png`)"
               v-if="perk4img.status"
             />
           </div>
@@ -82,14 +82,14 @@
 
 <script>
 import { computed, onMounted, onUnmounted, ref } from "vue";
-import perks_json from "../assets/perks/survivors/perks.json";
+import perks_json from "../assets/perks/killers/perks.json";
 
 export default {
   setup() {
     const perks = perks_json;
 
     const lv1bgimg = computed(() => {
-      const lv = perk1selectlv.value * 1;
+      const lv = kperk1selectlv.value * 1;
       if (lv == 3) {
         return "very_rare";
       } else if (lv == 2) {
@@ -100,8 +100,8 @@ export default {
     });
 
     const perk1img = computed(() => {
-      if (perk1selectpk.value != "") {
-        const result = perks.find(perk => perk.ja === perk1selectpk.value);
+      if (kperk1selectpk.value != "") {
+        const result = perks.find(perk => perk.ja === kperk1selectpk.value);
         if (
           typeof result === "undefined" ||
           typeof result.status === "undefined"
@@ -115,7 +115,7 @@ export default {
     });
 
     const lv2bgimg = computed(() => {
-      const lv = perk2selectlv.value * 1;
+      const lv = kperk2selectlv.value * 1;
       if (lv == 3) {
         return "very_rare";
       } else if (lv == 2) {
@@ -126,8 +126,8 @@ export default {
     });
 
     const perk2img = computed(() => {
-      if (perk2selectpk.value != "") {
-        const result = perks.find(perk => perk.ja === perk2selectpk.value);
+      if (kperk2selectpk.value != "") {
+        const result = perks.find(perk => perk.ja === kperk2selectpk.value);
         if (
           typeof result === "undefined" ||
           typeof result.status === "undefined"
@@ -141,7 +141,7 @@ export default {
     });
 
     const lv3bgimg = computed(() => {
-      const lv = perk3selectlv.value * 1;
+      const lv = kperk3selectlv.value * 1;
       if (lv == 3) {
         return "very_rare";
       } else if (lv == 2) {
@@ -152,8 +152,8 @@ export default {
     });
 
     const perk3img = computed(() => {
-      if (perk3selectpk.value != "") {
-        const result = perks.find(perk => perk.ja === perk3selectpk.value);
+      if (kperk3selectpk.value != "") {
+        const result = perks.find(perk => perk.ja === kperk3selectpk.value);
         if (
           typeof result === "undefined" ||
           typeof result.status === "undefined"
@@ -167,7 +167,7 @@ export default {
     });
 
     const lv4bgimg = computed(() => {
-      const lv = perk4selectlv.value * 1;
+      const lv = kperk4selectlv.value * 1;
       if (lv == 3) {
         return "very_rare";
       } else if (lv == 2) {
@@ -178,8 +178,8 @@ export default {
     });
 
     const perk4img = computed(() => {
-      if (perk4selectpk.value != "") {
-        const result = perks.find(perk => perk.ja === perk4selectpk.value);
+      if (kperk4selectpk.value != "") {
+        const result = perks.find(perk => perk.ja === kperk4selectpk.value);
         if (
           typeof result === "undefined" ||
           typeof result.status === "undefined"
@@ -192,100 +192,99 @@ export default {
       }
     });
 
-    const perk1selectlv = ref("0");
-    const perk2selectlv = ref("0");
-    const perk3selectlv = ref("0");
-    const perk4selectlv = ref("0");
+    const kperk1selectlv = ref("0");
+    const kperk2selectlv = ref("0");
+    const kperk3selectlv = ref("0");
+    const kperk4selectlv = ref("0");
 
-    const perk1selectpk = ref("");
-    const perk2selectpk = ref("");
-    const perk3selectpk = ref("");
-    const perk4selectpk = ref("");
+    const kperk1selectpk = ref("");
+    const kperk2selectpk = ref("");
+    const kperk3selectpk = ref("");
+    const kperk4selectpk = ref("");
 
     let ls_event_handle;
     onMounted(() => {
       ls_event_handle = window.addEventListener("storage", eventMethod);
 
-      if (localStorage.perk1selectlv) {
-        perk1selectlv.value = localStorage.perk1selectlv;
+      if (localStorage.kperk1selectlv) {
+        kperk1selectlv.value = localStorage.kperk1selectlv;
       }
 
-      if (localStorage.perk2selectlv) {
-        perk2selectlv.value = localStorage.perk2selectlv;
+      if (localStorage.kperk2selectlv) {
+        kperk2selectlv.value = localStorage.kperk2selectlv;
       }
 
-      if (localStorage.perk3selectlv) {
-        perk3selectlv.value = localStorage.perk3selectlv;
+      if (localStorage.kperk3selectlv) {
+        kperk3selectlv.value = localStorage.kperk3selectlv;
       }
 
-      if (localStorage.perk4selectlv) {
-        perk4selectlv.value = localStorage.perk4selectlv;
+      if (localStorage.kperk4selectlv) {
+        kperk4selectlv.value = localStorage.kperk4selectlv;
       }
 
-      if (localStorage.perk1selectpk) {
-        perk1selectpk.value = localStorage.perk1selectpk;
+      if (localStorage.kperk1selectpk) {
+        kperk1selectpk.value = localStorage.kperk1selectpk;
       }
 
-      if (localStorage.perk2selectpk) {
-        perk2selectpk.value = localStorage.perk2selectpk;
+      if (localStorage.kperk2selectpk) {
+        kperk2selectpk.value = localStorage.kperk2selectpk;
       }
 
-      if (localStorage.perk3selectpk) {
-        perk3selectpk.value = localStorage.perk3selectpk;
+      if (localStorage.kperk3selectpk) {
+        kperk3selectpk.value = localStorage.kperk3selectpk;
       }
 
-      if (localStorage.perk4selectpk) {
-        perk4selectpk.value = localStorage.perk4selectpk;
+      if (localStorage.kperk4selectpk) {
+        kperk4selectpk.value = localStorage.kperk4selectpk;
       }
     });
 
     const eventMethod = event => {
-      console.log(event.key);
       let newVal = event.newValue;
       // let oldVal = event.oldValue;
       switch (event.key) {
-        case "perk1selectlv":
-          perk1selectlv.value = newVal;
+        case "kperk1selectlv":
+          kperk1selectlv.value = newVal;
           if (newVal == 0) {
-            perk1selectpk.value = "";
+            kperk1selectpk.value = "";
           }
           break;
 
-        case "perk2selectlv":
-          perk2selectlv.value = newVal;
+        case "kperk2selectlv":
+          kperk2selectlv.value = newVal;
           if (newVal == 0) {
-            perk2selectpk.value = "";
+            kperk2selectpk.value = "";
           }
           break;
 
-        case "perk3selectlv":
-          perk3selectlv.value = newVal;
+        case "kperk3selectlv":
+          kperk3selectlv.value = newVal;
           if (newVal == 0) {
-            perk3selectpk.value = "";
+            kperk3selectpk.value = "";
           }
           break;
 
-        case "perk4selectlv":
-          perk4selectlv.value = newVal;
+        case "kperk4selectlv":
+          kperk4selectlv.value = newVal;
           if (newVal == 0) {
-            perk4selectpk.value = "";
+            kperk4selectpk.value = "";
           }
           break;
 
-        case "perk1selectpk":
-          perk1selectpk.value = newVal;
+        case "kperk1selectpk":
+          kperk1selectpk.value = newVal;
           break;
 
-        case "perk2selectpk":
-          perk2selectpk.value = newVal;
+        case "kperk2selectpk":
+          kperk2selectpk.value = newVal;
           break;
 
-        case "perk3selectpk":
-          perk3selectpk.value = newVal;
+        case "kperk3selectpk":
+          kperk3selectpk.value = newVal;
           break;
 
-        case "perk4selectpk":
-          perk4selectpk.value = newVal;
+        case "kperk4selectpk":
+          kperk4selectpk.value = newVal;
           break;
 
         default:
@@ -307,14 +306,14 @@ export default {
       perk3img,
       lv4bgimg,
       perk4img,
-      perk1selectlv,
-      perk2selectlv,
-      perk3selectlv,
-      perk4selectlv,
-      perk1selectpk,
-      perk2selectpk,
-      perk3selectpk,
-      perk4selectpk
+      kperk1selectlv,
+      kperk2selectlv,
+      kperk3selectlv,
+      kperk4selectlv,
+      kperk1selectpk,
+      kperk2selectpk,
+      kperk3selectpk,
+      kperk4selectpk
     };
   }
 };

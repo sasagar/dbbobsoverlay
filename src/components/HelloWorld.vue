@@ -10,13 +10,14 @@
         </router-link>
       </p>
       <p>
-        <router-link to="./ctrl">
-          Overlay Controller is here / オーバーレイの設定画面はこちら
+        <router-link to="./killers">
+          Overlay for Killers is here / キラー用オーバーレイはこちら
         </router-link>
       </p>
       <p>
-        【Ready for release / 準備中】Overlay for Killers is here /
-        キラー用オーバーレイはこちら
+        <router-link to="./ctrl">
+          Overlay Controller is here / オーバーレイの設定画面はこちら
+        </router-link>
       </p>
     </section>
     <section>

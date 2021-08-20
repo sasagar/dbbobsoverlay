@@ -240,7 +240,6 @@ export default {
     });
 
     const eventMethod = event => {
-      console.log(event.key);
       let newVal = event.newValue;
       // let oldVal = event.oldValue;
       switch (event.key) {
