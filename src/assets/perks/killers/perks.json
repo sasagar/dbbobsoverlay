@@ -489,5 +489,59 @@
         "id": "IconPerks_coupDeGrace",
         "ja": "とどめの一撃",
         "en": "Coup de grâce"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_starstruck",
+        "ja": "スターに憧れて",
+        "en": "Starstruck"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexCrowdControl",
+        "ja": "呪術：クラウドコントロール",
+        "en": "Hex: Crowd control"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_noWayOut",
+        "ja": "袋小路",
+        "en": "No way out"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_lethalPursuer",
+        "ja": "死を呼ぶ追跡者",
+        "en": "Lethal pursuer"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hysteria",
+        "ja": "集団ヒステリー",
+        "en": "Hysteria"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_eruption",
+        "ja": "イラプション",
+        "en": "Eruption"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_deadlock",
+        "ja": "デッドロック",
+        "en": "Deadlock"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexPlaything",
+        "ja": "呪術：玩具",
+        "en": "Hex: Plaything"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_scourgeHookGiftOfPain",
+        "ja": "悶絶のフック：苦痛という名の賜り物",
+        "en": "Scourge hook: Gift of pain"
     }
 ]
