@@ -219,5 +219,41 @@
         "id": "IconPerks_dyingLight",
         "ja": "消えゆく灯",
         "en": "Dying light"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_knockOut",
+        "ja": "ノックアウト",
+        "en": "Knock out"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_barbecueAndChili",
+        "ja": "バーベキュー&チリ",
+        "en": "Barbecue & Chili"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_franklinsDemise",
+        "ja": "フランクリンの悲劇",
+        "en": "Franklin's Demise"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_fireUp",
+        "ja": "ファイヤー・アップ",
+        "en": "Fire up"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_rememberMe",
+        "ja": "リメンバーミー",
+        "en": "Remember me"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_bloodWarden",
+        "ja": "血の番人",
+        "en": "Blood warden"
     }
 ]
