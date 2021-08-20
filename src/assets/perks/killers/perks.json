@@ -327,5 +327,41 @@
         "id": "IconPerks_ironMaiden",
         "ja": "アイアンメイデン",
         "en": "Iron maiden"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_corruptIntervention",
+        "ja": "堕落の介入",
+        "en": "Corrupt intervention"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_infectiousFright",
+        "ja": "伝播する怖気",
+        "en": "Infectious fright"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_darkDevotion",
+        "ja": "闇の信仰心",
+        "en": "Dark devotion"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_imAllEars",
+        "ja": "地獄耳",
+        "en": "I'm all ears"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_thrillingTremors",
+        "ja": "旋律",
+        "en": "Thrilling tremors"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_furtiveChase",
+        "ja": "隠密の追跡",
+        "en": "Furtive chase"
     }
 ]
