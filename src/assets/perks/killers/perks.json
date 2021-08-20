@@ -111,5 +111,41 @@
         "id": "IconPerks_shadowborn",
         "ja": "闇より出でし者",
         "en": "Shadowborn"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_enduring",
+        "ja": "不屈",
+        "en": "Enduring"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_lightborn",
+        "ja": "光より出でし者",
+        "en": "Lightborn"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_tinkerer",
+        "ja": "ガラクタいじり",
+        "en": "Tinkerer"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_stridor",
+        "ja": "喘鳴",
+        "en": "Stridor"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_thanatophobia",
+        "ja": "死恐怖症",
+        "en": "Thanatophobia"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_aNursesCalling",
+        "ja": "看護師の使命",
+        "en": "A nurse's calling"
     }
 ]
