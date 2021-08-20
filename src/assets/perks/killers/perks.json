@@ -471,5 +471,23 @@
         "id": "IconPerks_hexUndying",
         "ja": "呪術：不死",
         "en": "Hex: Undying"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hoarder",
+        "ja": "溜め込み屋",
+        "en": "Hoarder"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_oppression",
+        "ja": "迫害",
+        "en": "Oppression"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_coupDeGrace",
+        "ja": "とどめの一撃",
+        "en": "Coup de grâce"
     }
 ]
