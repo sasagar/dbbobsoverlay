@@ -75,5 +75,41 @@
         "id": "IconPerks_hexNoOneEscapesDeath",
         "ja": "呪術：誰も死から逃れられない",
         "en": "Hex: No one escapes death"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_unnervingPresence",
+        "ja": "不安の元凶",
+        "en": "Unnerving presence"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_brutalStrength",
+        "ja": "野蛮な力",
+        "en": "Brutal strength"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_agitation",
+        "ja": "興奮",
+        "en": "Agitation"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_predator",
+        "ja": "捕食者",
+        "en": "Predator"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_bloodhound",
+        "ja": "血の追跡者",
+        "en": "Bloodhound"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_shadowborn",
+        "ja": "闇より出でし者",
+        "en": "Shadowborn"
     }
 ]
