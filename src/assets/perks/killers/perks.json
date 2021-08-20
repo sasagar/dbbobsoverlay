@@ -291,5 +291,41 @@
         "id": "IconPerks_popGoesTheWeasel",
         "ja": "イタチが飛び出した",
         "en": "Pop goes the weasel"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_spiritFury",
+        "ja": "怨霊の怒り",
+        "en": "Spirit fury"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexHauntedGround",
+        "ja": "霊障の地",
+        "en": "Hex: Haunted ground"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_rancor",
+        "ja": "怨恨",
+        "en": "Rancor"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_discordance",
+        "ja": "不協和音",
+        "en": "Discordance"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_madGrit",
+        "ja": "狂気の根性",
+        "en": "Mad grit"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_ironMaiden",
+        "ja": "アイアンメイデン",
+        "en": "Iron maiden"
     }
 ]
