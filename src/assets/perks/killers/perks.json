@@ -255,5 +255,41 @@
         "id": "IconPerks_bloodWarden",
         "ja": "血の番人",
         "en": "Blood warden"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hangmansTrick",
+        "ja": "処刑人の妙技",
+        "en": "Hangman's trick"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_surveillance",
+        "ja": "監視",
+        "en": "Surveillance"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_makeYourChoice",
+        "ja": "選択は君次第だ",
+        "en": "Make your choice"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_bamboozle",
+        "ja": "まやかし",
+        "en": "Bamboozle"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_coulrophobia",
+        "ja": "ピエロ恐怖症",
+        "en": "Coulrophobia"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_popGoesTheWeasel",
+        "ja": "イタチが飛び出した",
+        "en": "Pop goes the weasel"
     }
 ]
