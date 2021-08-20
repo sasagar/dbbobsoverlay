@@ -417,5 +417,59 @@
         "id": "IconPerks_hexRetribution",
         "ja": "呪術；報復",
         "en": "Hex: Retribution"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_spiritFury",
+        "ja": "怨霊の怒り",
+        "en": "Spirit fury"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexHauntedGround",
+        "ja": "霊障の地",
+        "en": "Hex: Haunted ground"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_rancor",
+        "ja": "怨恨",
+        "en": "Rancor"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_forcedPenance",
+        "ja": "強制苦行",
+        "en": "Forced penance"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_trailOfTorment",
+        "ja": "煩悶のトレイル",
+        "en": "Trail of torment"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_deathbound",
+        "ja": "デスバウンド",
+        "en": "Deathbound"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_dragonsGrip",
+        "ja": "ドラゴンの掌握",
+        "en": "Dragon's grip"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexBloodFabour",
+        "ja": "呪術：血の恩恵",
+        "en": "Hex: Blood fabour"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexUndying",
+        "ja": "呪術：不死",
+        "en": "Hex: Undying"
     }
 ]
