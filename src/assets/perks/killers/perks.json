@@ -183,5 +183,41 @@
         "id": "IconPerks_overcharge",
         "ja": "オーバーチャージ",
         "en": "Overcharge"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_beastOfPrey",
+        "ja": "猛獣",
+        "en": "Beast of prey"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_territorialImperative",
+        "ja": "縄張り意識",
+        "en": "Territorial imprerative"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexHuntressLullaby",
+        "ja": "呪術：女狩人の子守歌",
+        "en": "Hex: Huntress lullaby"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_saveTheBestForLast",
+        "ja": "最後のお楽しみ",
+        "en": "Save the best for last"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_playWithYourFood",
+        "ja": "弄ばれる獲物",
+        "en": "Play with your food"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_dyingLight",
+        "ja": "消えゆく灯",
+        "en": "Dying light"
     }
 ]
