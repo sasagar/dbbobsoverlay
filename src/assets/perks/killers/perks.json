@@ -1,0 +1,79 @@
+[
+    {
+        "status": false,
+        "ja": "",
+        "en": ""
+    },
+    {
+        "status": true,
+        "id": "IconPerks_sloppyButcher",
+        "ja": "ずさんな肉屋",
+        "en": "Sloppy butcher"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_deerstalker",
+        "ja": "忍び寄る者",
+        "en": "Deerstalker"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_ironGrasp",
+        "ja": "鋼の握力",
+        "en": "Iron grasp"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexThrillOfTheHunt",
+        "ja": "呪術：狩りの興奮",
+        "en": "Hex: Thrill of the hunt"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_unrelenting",
+        "ja": "無慈悲",
+        "en": "Unrelenting"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_monstrousShrine",
+        "ja": "異形の祭壇",
+        "en": "Monstrous shrine"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_distressing",
+        "ja": "苦悶の根源",
+        "en": "Distressing"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_spiesFromTheShadows",
+        "ja": "影の中の密偵",
+        "en": "Spies from the shadows"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_whispers",
+        "ja": "囁き",
+        "en": "Whispers"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_insidious",
+        "ja": "狡猾",
+        "en": "Insidious"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_bitterMurmur",
+        "ja": "憎悪の呟き",
+        "en": "Bitter murmur"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexNoOneEscapesDeath",
+        "ja": "呪術：誰も死から逃れられない",
+        "en": "Hex: No one escapes death"
+    }
+]
