@@ -363,5 +363,59 @@
         "id": "IconPerks_furtiveChase",
         "ja": "隠密の追跡",
         "en": "Furtive chase"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_surge",
+        "ja": "サージ",
+        "en": "Surge"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_cruelCruelLimits",
+        "ja": "無慈悲の極地",
+        "en": "Cruel cruel limits"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_mindBreaker",
+        "ja": "マインドブレイカー",
+        "en": "Mind breaker"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_zanshinTactics",
+        "ja": "斬新の戦術",
+        "en": "Zanshin tactics"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_bloodEcho",
+        "ja": "血の共鳴",
+        "en": "Blood echo"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_nemesis",
+        "ja": "天誅",
+        "en": "Nemesis"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_gearhead",
+        "ja": "変速機",
+        "en": "Gearhead"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_deadMansSwitch",
+        "ja": "死人のスイッチ",
+        "en": "Dead man's switch"
+    },
+    {
+        "status": true,
+        "id": "IconPerks_hexRetribution",
+        "ja": "呪術；報復",
+        "en": "Hex: Retribution"
     }
 ]
